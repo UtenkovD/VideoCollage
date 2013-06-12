@@ -10,4 +10,8 @@
 
 @interface VideoViewController : UIViewController
 
+- (IBAction)playVideo:(id)sender;
+
+- (IBAction)takeVideo:(UIButton *)sender;
+
 @end

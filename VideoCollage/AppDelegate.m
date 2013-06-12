@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 
 #import "VideoViewController.h"
+#import "RecordViewController.h"
 
 @implementation AppDelegate
 
@@ -23,8 +24,9 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.viewController = [[[VideoViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
-    self.window.rootViewController = self.viewController;
+    //self.viewController = [[[VideoViewController alloc] initWithNibName:@"VideoViewController" bundle:nil] autorelease];
+    //self.viewController = ;
+    self.window.rootViewController = [[[RecordViewController alloc] initWithNibName:@"RecordViewController" bundle:nil] autorelease];
     [self.window makeKeyAndVisible];
     return YES;
 }
