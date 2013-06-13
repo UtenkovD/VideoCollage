@@ -10,8 +10,8 @@
 
 @interface VideoViewController : UIViewController
 
-- (IBAction)playVideo:(id)sender;
+@property (nonatomic, retain) IBOutlet UIButton *collageButton;
 
-- (IBAction)takeVideo:(UIButton *)sender;
+- (IBAction)collageButtonPressed:(id)sender;
 
 @end

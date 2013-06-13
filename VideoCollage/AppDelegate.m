@@ -26,7 +26,7 @@
     // Override point for customization after application launch.
     //self.viewController = [[[VideoViewController alloc] initWithNibName:@"VideoViewController" bundle:nil] autorelease];
     //self.viewController = ;
-    self.window.rootViewController = [[[RecordViewController alloc] initWithNibName:@"RecordViewController" bundle:nil] autorelease];
+    self.window.rootViewController = [[[VideoViewController alloc] initWithNibName:@"VideoViewController" bundle:nil] autorelease];
     [self.window makeKeyAndVisible];
     return YES;
 }

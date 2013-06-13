@@ -7,14 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA6603A317689B0D0095DEDF /* AudioWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA66039B17689B0D0095DEDF /* AudioWriter.m */; };
-		FA6603A417689B0D0095DEDF /* CROpenGLESVideoCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = FA66039D17689B0D0095DEDF /* CROpenGLESVideoCapture.m */; };
-		FA6603A717689B0D0095DEDF /* ShaderUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = FA6603A117689B0D0095DEDF /* ShaderUtilities.c */; };
 		FA6603A917689B8E0095DEDF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6603A817689B8E0095DEDF /* OpenGLES.framework */; };
 		FA6603AB17689B990095DEDF /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6603AA17689B990095DEDF /* AssetsLibrary.framework */; };
 		FA6603B017689F4A0095DEDF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6603AF17689F4A0095DEDF /* QuartzCore.framework */; };
-		FA6603B11768A0510095DEDF /* passThrough.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FA66039F17689B0D0095DEDF /* passThrough.fsh */; };
-		FA6603B21768A0510095DEDF /* passThrough.vsh in Resources */ = {isa = PBXBuildFile; fileRef = FA6603A017689B0D0095DEDF /* passThrough.vsh */; };
 		FA6603B81768CA640095DEDF /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6603B71768CA630095DEDF /* CoreImage.framework */; };
 		FA6603BA1768EA440095DEDF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6603B91768EA440095DEDF /* MobileCoreServices.framework */; };
 		FA6603BD1768ED0A0095DEDF /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6603BC1768ED0A0095DEDF /* RecordViewController.m */; };
@@ -30,22 +25,18 @@
 		FA9B7886176862920028A5DA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA9B7885176862920028A5DA /* Default-568h@2x.png */; };
 		FA9B7889176862920028A5DA /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9B7888176862920028A5DA /* VideoViewController.m */; };
 		FA9B788C176862920028A5DA /* VideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA9B788A176862920028A5DA /* VideoViewController.xib */; };
-		FA9B7893176862F20028A5DA /* videoSample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FA9B7892176862F20028A5DA /* videoSample.mp4 */; };
 		FA9B78951768675A0028A5DA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9B78941768675A0028A5DA /* AVFoundation.framework */; };
 		FA9B7897176870210028A5DA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9B7896176870210028A5DA /* CoreMedia.framework */; };
 		FA9B7899176870290028A5DA /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9B7898176870290028A5DA /* CoreVideo.framework */; };
-		FA9B789B176875760028A5DA /* Mask.png in Resources */ = {isa = PBXBuildFile; fileRef = FA9B789A176875760028A5DA /* Mask.png */; };
+		FAE5930E1769AA4D004BD694 /* Video4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAE5930A1769AA4D004BD694 /* Video4.mp4 */; };
+		FAE5930F1769AA4D004BD694 /* Video3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAE5930B1769AA4D004BD694 /* Video3.mp4 */; };
+		FAE593101769AA4D004BD694 /* Video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAE5930C1769AA4D004BD694 /* Video2.mp4 */; };
+		FAE593111769AA4D004BD694 /* Video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAE5930D1769AA4D004BD694 /* Video1.mp4 */; };
+		FAE593131769FBE8004BD694 /* TemplateMask.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE593121769FBE8004BD694 /* TemplateMask.png */; };
+		FAE59317176A2674004BD694 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE59316176A2674004BD694 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FA66039A17689B0D0095DEDF /* AudioWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioWriter.h; sourceTree = "<group>"; };
-		FA66039B17689B0D0095DEDF /* AudioWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioWriter.m; sourceTree = "<group>"; };
-		FA66039C17689B0D0095DEDF /* CROpenGLESVideoCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CROpenGLESVideoCapture.h; sourceTree = "<group>"; };
-		FA66039D17689B0D0095DEDF /* CROpenGLESVideoCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CROpenGLESVideoCapture.m; sourceTree = "<group>"; };
-		FA66039F17689B0D0095DEDF /* passThrough.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = passThrough.fsh; sourceTree = "<group>"; };
-		FA6603A017689B0D0095DEDF /* passThrough.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = passThrough.vsh; sourceTree = "<group>"; };
-		FA6603A117689B0D0095DEDF /* ShaderUtilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ShaderUtilities.c; sourceTree = "<group>"; };
-		FA6603A217689B0D0095DEDF /* ShaderUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderUtilities.h; sourceTree = "<group>"; };
 		FA6603A817689B8E0095DEDF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		FA6603AA17689B990095DEDF /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		FA6603AF17689F4A0095DEDF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -70,11 +61,16 @@
 		FA9B7887176862920028A5DA /* VideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
 		FA9B7888176862920028A5DA /* VideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
 		FA9B788B176862920028A5DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VideoViewController.xib; sourceTree = "<group>"; };
-		FA9B7892176862F20028A5DA /* videoSample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = videoSample.mp4; sourceTree = "<group>"; };
 		FA9B78941768675A0028A5DA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		FA9B7896176870210028A5DA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		FA9B7898176870290028A5DA /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
-		FA9B789A176875760028A5DA /* Mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mask.png; sourceTree = "<group>"; };
+		FAE5930A1769AA4D004BD694 /* Video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video4.mp4; sourceTree = "<group>"; };
+		FAE5930B1769AA4D004BD694 /* Video3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video3.mp4; sourceTree = "<group>"; };
+		FAE5930C1769AA4D004BD694 /* Video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video2.mp4; sourceTree = "<group>"; };
+		FAE5930D1769AA4D004BD694 /* Video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video1.mp4; sourceTree = "<group>"; };
+		FAE593121769FBE8004BD694 /* TemplateMask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateMask.png; sourceTree = "<group>"; };
+		FAE59315176A2674004BD694 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		FAE59316176A2674004BD694 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,34 +95,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FA66039917689B0D0095DEDF /* CROpenGLESVideoCapture */ = {
-			isa = PBXGroup;
-			children = (
-				FA66039A17689B0D0095DEDF /* AudioWriter.h */,
-				FA66039B17689B0D0095DEDF /* AudioWriter.m */,
-				FA66039C17689B0D0095DEDF /* CROpenGLESVideoCapture.h */,
-				FA66039D17689B0D0095DEDF /* CROpenGLESVideoCapture.m */,
-				FA66039E17689B0D0095DEDF /* Shaders */,
-			);
-			path = CROpenGLESVideoCapture;
-			sourceTree = "<group>";
-		};
-		FA66039E17689B0D0095DEDF /* Shaders */ = {
-			isa = PBXGroup;
-			children = (
-				FA66039F17689B0D0095DEDF /* passThrough.fsh */,
-				FA6603A017689B0D0095DEDF /* passThrough.vsh */,
-				FA6603A117689B0D0095DEDF /* ShaderUtilities.c */,
-				FA6603A217689B0D0095DEDF /* ShaderUtilities.h */,
-			);
-			path = Shaders;
-			sourceTree = "<group>";
-		};
 		FA9B7863176862920028A5DA = {
 			isa = PBXGroup;
 			children = (
-				FA6603B91768EA440095DEDF /* MobileCoreServices.framework */,
-				FA6603B71768CA630095DEDF /* CoreImage.framework */,
 				FA9B7875176862920028A5DA /* VideoCollage */,
 				FA9B786E176862920028A5DA /* Frameworks */,
 				FA9B786D176862920028A5DA /* Products */,
@@ -144,6 +115,8 @@
 		FA9B786E176862920028A5DA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA6603B91768EA440095DEDF /* MobileCoreServices.framework */,
+				FA6603B71768CA630095DEDF /* CoreImage.framework */,
 				FA6603AF17689F4A0095DEDF /* QuartzCore.framework */,
 				FA6603AA17689B990095DEDF /* AssetsLibrary.framework */,
 				FA6603A817689B8E0095DEDF /* OpenGLES.framework */,
@@ -160,7 +133,7 @@
 		FA9B7875176862920028A5DA /* VideoCollage */ = {
 			isa = PBXGroup;
 			children = (
-				FA66039917689B0D0095DEDF /* CROpenGLESVideoCapture */,
+				FAE59314176A2674004BD694 /* MBProgressHUD */,
 				FA9B787E176862920028A5DA /* AppDelegate.h */,
 				FA9B787F176862920028A5DA /* AppDelegate.m */,
 				FA9B7887176862920028A5DA /* VideoViewController.h */,
@@ -177,8 +150,11 @@
 		FA9B7876176862920028A5DA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FA9B789A176875760028A5DA /* Mask.png */,
-				FA9B7892176862F20028A5DA /* videoSample.mp4 */,
+				FAE593121769FBE8004BD694 /* TemplateMask.png */,
+				FAE5930A1769AA4D004BD694 /* Video4.mp4 */,
+				FAE5930B1769AA4D004BD694 /* Video3.mp4 */,
+				FAE5930C1769AA4D004BD694 /* Video2.mp4 */,
+				FAE5930D1769AA4D004BD694 /* Video1.mp4 */,
 				FA9B7877176862920028A5DA /* VideoCollage-Info.plist */,
 				FA9B7878176862920028A5DA /* InfoPlist.strings */,
 				FA9B787B176862920028A5DA /* main.m */,
@@ -188,6 +164,15 @@
 				FA9B7885176862920028A5DA /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAE59314176A2674004BD694 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				FAE59315176A2674004BD694 /* MBProgressHUD.h */,
+				FAE59316176A2674004BD694 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,16 +226,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA6603B11768A0510095DEDF /* passThrough.fsh in Resources */,
-				FA6603B21768A0510095DEDF /* passThrough.vsh in Resources */,
 				FA9B787A176862920028A5DA /* InfoPlist.strings in Resources */,
 				FA9B7882176862920028A5DA /* Default.png in Resources */,
 				FA9B7884176862920028A5DA /* Default@2x.png in Resources */,
 				FA9B7886176862920028A5DA /* Default-568h@2x.png in Resources */,
 				FA9B788C176862920028A5DA /* VideoViewController.xib in Resources */,
-				FA9B7893176862F20028A5DA /* videoSample.mp4 in Resources */,
-				FA9B789B176875760028A5DA /* Mask.png in Resources */,
 				FA6603BF1768EF680095DEDF /* RecordViewController.xib in Resources */,
+				FAE5930E1769AA4D004BD694 /* Video4.mp4 in Resources */,
+				FAE5930F1769AA4D004BD694 /* Video3.mp4 in Resources */,
+				FAE593101769AA4D004BD694 /* Video2.mp4 in Resources */,
+				FAE593111769AA4D004BD694 /* Video1.mp4 in Resources */,
+				FAE593131769FBE8004BD694 /* TemplateMask.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,10 +250,8 @@
 				FA9B787C176862920028A5DA /* main.m in Sources */,
 				FA9B7880176862920028A5DA /* AppDelegate.m in Sources */,
 				FA9B7889176862920028A5DA /* VideoViewController.m in Sources */,
-				FA6603A317689B0D0095DEDF /* AudioWriter.m in Sources */,
-				FA6603A417689B0D0095DEDF /* CROpenGLESVideoCapture.m in Sources */,
-				FA6603A717689B0D0095DEDF /* ShaderUtilities.c in Sources */,
 				FA6603BD1768ED0A0095DEDF /* RecordViewController.m in Sources */,
+				FAE59317176A2674004BD694 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
